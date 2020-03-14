@@ -1,0 +1,42 @@
+#SearchBar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+}
+
+#searchbar {
+    border: transparent;
+}
+
+.searchbutton:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    color: #222;
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+}
+
+.searchbutton {
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f1f1f1));
+    padding: 0 16px;
+    margin: 11px 4px 11px 4px;
+    border: 0.8px;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+#googlelogo {
+    text-align: center;
+    width: 272;
+    height: 201;
+    padding-top: 109px;
+}
